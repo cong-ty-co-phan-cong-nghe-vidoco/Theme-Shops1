@@ -632,3 +632,26 @@ p.pice_poduct_detail_sub {
 .product_detail_text {
     float: left;
 }
+.quantity ul li {
+    list-style-type: none;
+    float: left;
+    margin-right: 15px;
+}
+.quantity ul li button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.tab_text_product_detail {
+    margin-top: 20px;
+}
+li#description a {
+    width: 250px;
+    height: 42px;
+    background: #AD0800;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
