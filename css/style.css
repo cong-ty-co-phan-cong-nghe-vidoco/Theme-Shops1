@@ -638,11 +638,23 @@ p.pice_poduct_detail_sub {
     margin-right: 15px;
 }
 .quantity ul li button {
-    width: 80px;
     height: 40px;
     font-size: 20px;
 }
-
+button.icon-plus {
+    width: 70px;
+}
+button.add-to-cart {
+    width: 230px;
+    height: 60px;
+    border: 0;
+    background: #18A4D8;
+    color: #fff;
+    font-size: 20px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #808080;
+}
 .tab_text_product_detail {
     margin-top: 20px;
 }
