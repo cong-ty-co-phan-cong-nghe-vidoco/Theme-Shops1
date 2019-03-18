@@ -589,3 +589,46 @@ ul.sub-menu-sidebar li a {
     border: 1px solid #333;
     padding: 12px;
 }
+.img_product_detail img {
+    width: 100%;
+    margin-top: 20px;
+}
+.img_product_detail{
+	padding-left:0px;
+}
+.product_detail{
+	padding-left: 0px;
+}
+.review-text ul li {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    list-style-type: none;
+}
+.h3_heading {
+    border-bottom: 1px solid #333;
+}
+.review-text ul {
+    border-bottom: 1px solid #333;
+    height: 32px;
+}
+.pice_product_detail del {
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: #808080;
+}
+.pice_product_detail {
+    border-bottom: 1px solid #333;
+    height: 32px;
+}
+p.pice_poduct_detail_sub {
+    float: left;
+    margin-left: 15px;
+    font-size: 20px;
+    color: #FF0000;
+    font-weight: 600;
+}
+.product_detail_text {
+    float: left;
+}
