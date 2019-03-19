@@ -742,3 +742,19 @@ li#description a {
 .text-sidebar {
     margin-top: 10px;
 }
+.title_comment h3 {
+    color: #333;
+    font-weight: bold;
+}
+.comment_text {
+    padding: 0;
+}
+.img img {
+    width: 100%;
+}
+.img{
+	padding-left:0;
+}
+.row_comment {
+    padding: 0;
+}
