@@ -757,4 +757,28 @@ li#description a {
 }
 .row_comment {
     padding: 0;
+    border-bottom: 1px solid #B3B3B3;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.comment_text h4 {
+    margin-top: 0;
+    font-weight: bold;
+}
+.ui.form .required.field>.checkbox:after, .ui.form .required.field>label:after, .ui.form .required.fields.grouped>label:after, .ui.form .required.fields:not(.grouped)>.field>.checkbox:after, .ui.form .required.fields:not(.grouped)>.field>label:after {
+    margin: -.2em 0 0 .2em;
+    content: '*';
+    color: #DB2828;
+}
+label:after {
+    margin: -.2em 0 0 .2em;
+    content: '*';
+    color: #DB2828;
+}
+textarea.text_area {
+    background: #fff;
+}
+input.input_blog {
+    width: 210px;
+    height: 34px;
 }
