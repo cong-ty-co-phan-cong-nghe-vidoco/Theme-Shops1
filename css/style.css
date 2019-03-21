@@ -4,6 +4,7 @@
 }
 a, a:hover{
     text-decoration: none;
+    color: #333;
 }
 i.glyphicon.glyphicon-chevron-down {
     margin-left: 5px;
@@ -462,6 +463,7 @@ ul.sub-menu-sidebar li a {
 .subscribe_sidebar {
     background: #AD0800;
     padding: 20px;
+    margin-top: 20px;
 }
 .email-sb img {
     width: 20%;
@@ -475,8 +477,11 @@ ul.sub-menu-sidebar li a {
     clear: both;
     color: #fff;
 }
+.clr{
+	clear:both;
+}
 .form-subscribe-sb input {
-    width: 230px;
+    width: 210px;
     height: 35px;
     padding-left: 10px;
 }
@@ -515,7 +520,7 @@ ul.sub-menu-sidebar li a {
 }
 .ip-contact-ad {
     height: 35px;
-    width: 85%;
+    width: 83%;
 }
 #contact-us {
     padding-left: 0;
@@ -530,6 +535,7 @@ ul.sub-menu-sidebar li a {
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 .form-contact input {
     background: #F2F2F2;
@@ -691,6 +697,7 @@ li#description a {
 }
 .heading_h3_blog {
     border-bottom: 1px solid #C6CBD6;
+    clear:both;
 }
 .img_side_bar {
     padding-left: 0px;
@@ -704,7 +711,7 @@ li#description a {
 }
 .blog-sidebar {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
 }
 .plant_sidebar{
 	margin-top: 10px;
@@ -770,4 +777,19 @@ textarea.text_area {
 input.input_blog {
     width: 210px;
     height: 34px;
+}
+.add-comment button {
+    width: 125px;
+    height: 30px;
+    background-color: #710303;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: inherit;
+    color: #fff;
+    font-size: 12px;
+}
+.contact_blog h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
 }

@@ -1,77 +1,91 @@
-<!doctype html>
-<html lang="vi">
-    <head>
-        <meta charset="utf-8" />
-        <title>Bài tập 14.3.2019</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/font.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-    	<div class="container" id="wraper">
-    		<div class="row">
-	    		<header id="header" class="col-md-12">
-	    			<div class="header-wrapper">
-	    				<div class="header-top" id="top-bar">
-	    					<div class="top_left">
-		    					<ul>
-		    						<li><a href="#"><img src="img/english.png">English<i class="glyphicon glyphicon-chevron-down"></i></a></li>
-		    						<li><a href="#">USA<i class="glyphicon glyphicon-chevron-down"></i></a></li>
-		    						<li><a href="#">Default welcome msgl</a></li>
-		    					</ul>
-		    				</div>
-		    				<div class="top_right">
-		    					<ul>
-		    						<li><a href="#">My account</a></li>
-		    						<li><a href="#">Wishlist</a></li>
-		    						<li><a href="#">Checkout</a></li>
-		    						<li><a href="#"><img src="img/icons8-phone-30.png">1 800 123 1234</a></li>
-		    					</ul>
-		    				</div>
-	    				</div>
-	    				<div class="header-main">
-	    					<div class="col-md-3" id="logo">
-	    						<img src="img/logo.png">
-	    					</div>
-	    					<div id="search" class="col-md-5">
-	    						<form class="form-search">
-	    							<input type="text" name="search" placeholder="Search here!" class="search" />
-	    							<button>Search</button>
-	    						</form>
-	    					</div>
-	    					<div class="col-md-4">
-	    						<ul class="header_manin_right">
-	    							<li><a href="#">Log in</a> | </li>
-	    							<li><a href="#">Sign up now</a></li>
-	    							<li><a href="#"><img src="img/icons8-shopping-cart-48.png">My cart</a></li>
-	    							<li class="number_head"><a href="#">2</a></li>
-	    						</ul>
-	    					</div>
-	    				</div>
-	    				<div class="header-bottom">
-	    					<nav class="menu">
-	    						<ul>
-	    							<li><a href="#">Hone</a></li>
-	    							<li><a href="#">Pages</a></li>
-	    							<li><a href="#">Women</a></li>
-	    							<li><a href="#">men</a></li>
-	    							<li><a href="#">Electronics</a></li>
-	    							<li><a href="#">Furniture</a></li>
-	    							<li><a href="#">Blog</a></li>
-	    						</ul>
-	    					</nav>
-	    				</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Demo</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="topbar" class="container-full">
+			<div class="container clearfix">
+				<div class="float-left">
+					<ul>
+		    			<li><a href="#"><img src="img/english.png">English<i class="glyphicon glyphicon-chevron-down"></i></a></li>
+		    				<li><a href="#">USA<i class="glyphicon glyphicon-chevron-down"></i></a></li>
+		    				<li><a href="#">Default welcome msgl</a></li>
+		    			</ul>
+				</div>
+				<div class="float-right">
+					<ul>
+		    			<li><a href="#">My account</a></li>
+		    			<li><a href="#">Wishlist</a></li>
+		    			<li><a href="#">Checkout</a></li>
+		    			<li><a href="#"><img src="img/icons8-phone-30.png">1 800 123 1234</a></li>
+		    		</ul>
+				</div>
+			</div>
+		</div>
+		<div id="header-sticky-wrapper" class="sticky-wrapper">
+			<header id="header">
+				<div class="container">
+					<div class="col-md-3" id="logo">
+	    				<img src="img/logo.png">
 	    			</div>
-	    		</header>
-	    	</div>
-	    	<div class="thurnm-menu">
+	    			<div id="search" class="col-md-5">
+	    				<form class="form-search">
+	    					<input type="text" name="search" placeholder="Search here!" class="search" />
+	    					<button>Search</button>
+	    				</form>
+	    			</div>
+	    			<div class="col-md-4">
+	    				<ul class="header_manin_right">
+	    					<li><a href="#">Log in</a> | </li>
+	    					<li><a href="#">Sign up now</a></li>
+	    					<li><a href="#"><img src="img/icons8-shopping-cart-48.png">My cart</a></li>
+	    					<li class="number_head"><a href="#">2</a></li>
+	    				</ul>
+	    			</div>
+				</div>
+			</header>
+		</div>
+		<div id="menu">
+			<section>
+				<nav class="navbar navbar-default navbar-fixed-center menu" role="navigation">
+				    <div class="container">
+				      	<div class="navbar-header">
+					        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+					          	<span class="sr-only">Toggle navigation</span>
+					          	<span class="icon-bar"></span>
+					          	<span class="icon-bar"></span>
+					          	<span class="icon-bar"></span>
+					       	</button>
+				      	</div>
+				      	<div class="collapse navbar-collapse" id="collapse">
+					        <ul class="nav navbar-nav navbar-left menu_main">
+					           	<li class="active"><a href="#">Home</a></li>
+					           	<li><a href="#">Pages</a></li>
+					           	<li><a href="#">Women</a></li>
+					           	<li><a href="#">Men</a></li>
+					           	<li><a href="#">Electronics</a></li>
+					           	<li><a href="#">Furniture</a></li>
+					           	<li><a href="#">Blog</a></li>
+					        </ul>
+				      	</div>
+    				</div>
+  				</nav>
+			</section>
+		</div>
+		<div class="thurnm-menu">
+			<div class="container">
 	    		<ul>
 	    			<li><a href="">Home</a><i class="icon angle right"></i></li>
-	    			<li><a href="">Women</a><i class="icon angle right"></i></li>
-	    			<li><a href="">Simple product</a><i class="icon angle right"></i></li>
+	    			<li><a href="">Contact us</a><i class="icon angle right"></i></li>
 	    		</ul>
 	    	</div>
+	    </div>
+	    <div class="container">
 	    	<div class="col-md-6 product_detail">
 	    		<div class="col-md-2 img_product_detail">
 	    			<img src="img/product2.jpg">
@@ -280,123 +294,127 @@
 	    			</div>
 			    </div>
 	    	</div>
-			<div class="col-md-12" id="partner">
-		    	<div class="col-xs-2" id="p1">
-		    		<img src="img/custom-img1.jpg">
-		    	</div>
-		    	<div class="col-xs-2" id="p1">
-		    		<img src="img/custom-img3.jpg">
-		    	</div>
-		    	<div class="col-xs-2" id="p1">
-		    		<img src="img/b-logo5.png">
-		    	</div>
-		    	<div class="col-xs-2" id="p1">
-		    		<img src="img/b-logo3.png">
-		    	</div>
-		    	<div class="col-xs-2" id="p1">
-		    		<img src="img/custom-img3.jpg">
-		    	</div>
-		    </div>
+	    </div>
+    	<div class="container-full" id="partner">
+    		<div class="container">	    	
+				<div class="col-xs-2" id="p1">
+				   <img src="img/custom-img1.jpg">
+				</div>
+				<div class="col-xs-2" id="p1">
+				   <img src="img/custom-img3.jpg">
+				</div>
+				<div class="col-xs-2" id="p1">
+				   	<img src="img/b-logo5.png">
+				</div>
+				<div class="col-xs-2" id="p1">
+				   <img src="img/b-logo3.png">
+				</div>
+				<div class="col-xs-2" id="p1">
+				   <img src="img/custom-img3.jpg">
+				</div>
+			</div>
     	</div>
-    	
-    	<footer id="footer" class="container">
-    		<div class="footer_top col-md-12">
-    			<div class="col-md-4">
-    				<div id="logo_ft">
-    					<img src="img/footer-logo.png">
-    				</div>
-    				<div class="text_footer">
-    					<p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac furpls egestas. Fusce sit</p>
-    				</div>
-    				<div class="lo_partner">
-    					<ul>
-    						<li>
-    							<a href=""><img src="img/payment-1.png"></a>
-    						</li>
-    						<li>
-    							<a href=""><img src="img/payment-2.png"></a>
-    						</li>
-    						<li>
-    							<a href=""><img src="img/payment-3.png"></a>
-    						</li>
-    						<li>
-    							<a href=""><img src="img/payment-4.png"></a>
-    						</li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="col-md-2">
-    				<div class="head_h4">
-    					<h4>Shopping guide</h4>
-    				</div>
-    				<div class="list">
-    					<ul>
-    						<li><i class="icon angle right"></i><a href="">How to buy</a></li>
-    						<li><i class="icon angle right"></i><a href="">FAQS</a></li>
-    						<li><i class="icon angle right"></i><a href="">Payment</a></li>
-    						<li><i class="icon angle right"></i><a href="">Shipment</a></li>
-    						<li><i class="icon angle right"></i><a href="">Deilivery</a></li>
-    						<li><i class="icon angle right"></i><a href="">Retum</a></li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="col-md-2">
-    				<div class="head_h4">
-    					<h4>Style advisor</h4>
-    				</div>
-    				<div class="list">
-    					<ul>
-    						<li><i class="icon angle right"></i><a href="">Your account</a></li>
-    						<li><i class="icon angle right"></i><a href="">Information</a></li>
-    						<li><i class="icon angle right"></i><a href="">Addresses</a></li>
-    						<li><i class="icon angle right"></i><a href="">Discount</a></li>
-    						<li><i class="icon angle right"></i><a href="">Orders history</a></li>
-    						<li><i class="icon angle right"></i><a href="">Additional information</a></li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="col-md-2">
-    				<div class="head_h4">
-    					<h4>Information</h4>
-    				</div>
-    				<div class="list">
-    					<ul>
-    						<li><i class="icon angle right"></i><a href="">Site map</a></li>
-    						<li><i class="icon angle right"></i><a href="">Search terms</a></li>
-    						<li><i class="icon angle right"></i><a href="">advanced search</a></li>
-    						<li><i class="icon angle right"></i><a href="">Contact us</a></li>
-    						<li><i class="icon angle right"></i><a href="">Suppliers</a></li>
-    						<li><i class="icon angle right"></i><a href="">Our stores</a></li>
-    					</ul>
-    				</div>
-    			</div>
-    			<div class="col-md-2">
-    				<div class="head_h4">
-    					<h4>Contact us</h4>
-    				</div>
-    				<div class="list">
-    					<p>12 Main street, Anytown, CA 12345 USA</p>
-    					<p>+1 800 123 1234</p>
-    					<p>suppaort@magikcom-merce.com</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="footer_bottom">
-    			<div class="copy-right col-md-5">
-    				<p>@2018 Moglikcommerce. All Right Resenved</p>
-    			</div>
-    			<div class="list-bottom col-md-7">
-    				<ul>
-    					<li><a href="">Magento extensions</a></li>
-    					<li><a href="">Responsive themes</a></li>
-    					<li><a href="">Premium themes</a></li>
-    					<li><a href="">Manento Extensions</a></li>
-    				</ul>
-    			</div>
-    		</div>
+    	<footer id="footer" class="container-full">
+    		<div class="container">
+	    		<div class="footer_top col-md-12">
+	    			<div class="col-md-4">
+	    				<div id="logo_ft">
+	    					<img src="img/footer-logo.png">
+	    				</div>
+	    				<div class="text_footer">
+	    					<p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac furpls egestas. Fusce sit</p>
+	    				</div>
+	    				<div class="lo_partner">
+	    					<ul>
+	    						<li>
+	    							<a href=""><img src="img/payment-1.png"></a>
+	    						</li>
+	    						<li>
+	    							<a href=""><img src="img/payment-2.png"></a>
+	    						</li>
+	    						<li>
+	    							<a href=""><img src="img/payment-3.png"></a>
+	    						</li>
+	    						<li>
+	    							<a href=""><img src="img/payment-4.png"></a>
+	    						</li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-2">
+	    				<div class="head_h4">
+	    					<h4>Shopping guide</h4>
+	    				</div>
+	    				<div class="list">
+	    					<ul>
+	    						<li><i class="icon angle right"></i><a href="">How to buy</a></li>
+	    						<li><i class="icon angle right"></i><a href="">FAQS</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Payment</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Shipment</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Deilivery</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Retum</a></li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-2">
+	    				<div class="head_h4">
+	    					<h4>Style advisor</h4>
+	    				</div>
+	    				<div class="list">
+	    					<ul>
+	    						<li><i class="icon angle right"></i><a href="">Your account</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Information</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Addresses</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Discount</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Orders history</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Additional information</a></li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-2">
+	    				<div class="head_h4">
+	    					<h4>Information</h4>
+	    				</div>
+	    				<div class="list">
+	    					<ul>
+	    						<li><i class="icon angle right"></i><a href="">Site map</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Search terms</a></li>
+	    						<li><i class="icon angle right"></i><a href="">advanced search</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Contact us</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Suppliers</a></li>
+	    						<li><i class="icon angle right"></i><a href="">Our stores</a></li>
+	    					</ul>
+	    				</div>
+	    			</div>
+	    			<div class="col-md-2">
+	    				<div class="head_h4">
+	    					<h4>Contact us</h4>
+	    				</div>
+	    				<div class="list">
+	    					<p>12 Main street, Anytown, CA 12345 USA</p>
+	    					<p>+1 800 123 1234</p>
+	    					<p>suppaort@magikcom-merce.com</p>
+	    				</div>
+	    			</div>
+	    		</div>
+	    		<div class="footer_bottom">
+	    			<div class="copy-right col-md-5">
+	    				<p>@2018 Moglikcommerce. All Right Resenved</p>
+	    			</div>
+	    			<div class="list-bottom col-md-7">
+	    				<ul>
+	    					<li><a href="">Magento extensions</a></li>
+	    					<li><a href="">Responsive themes</a></li>
+	    					<li><a href="">Premium themes</a></li>
+	    					<li><a href="">Manento Extensions</a></li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
     	</footer>
-    	<script src="js/jquery-3.2.1.slim.min.js"></script>
-	    <script src="js/popper.min.js"></script>
-	    <script src="js/bootstrap.min.js"></script>
-    </body>
+		<script src="js/jquery-3.3.1.slim.min.js"></script>
+		<script src="js/npm.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+	</body>
 </html>
