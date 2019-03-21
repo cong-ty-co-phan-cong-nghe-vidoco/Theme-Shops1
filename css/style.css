@@ -315,6 +315,7 @@ i.glyphicon.glyphicon-star-empty {
 }
 #partner {
     padding-top: 20px;
+    padding-bottom:20px;
     clear: both;
 }
 #footer {
@@ -362,6 +363,9 @@ i.icon.angle.right {
     color: #fff;
     border: 0;
     font-size: 20px;
+}
+.list {
+    color: #fff;
 }
 .thurnm-menu {
     height: 30px;
